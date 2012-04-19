@@ -18,7 +18,7 @@ jQuery.fn.placeholder = function(options) {
 	// actual options
 	var opts = $.extend(defaults, options);
 
-	return this.each(function(){
+	this.each(function(){
 		// cache the current node for performance
 		var currentNode = jQuery(this);
 
